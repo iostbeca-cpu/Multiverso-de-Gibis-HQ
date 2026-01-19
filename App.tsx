@@ -11,6 +11,7 @@ import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 import PurchaseNotification from './components/PurchaseNotification';
+import CookieConsent from './components/CookieConsent';
 
 const App: React.FC = () => {
   return (
@@ -29,6 +30,7 @@ const App: React.FC = () => {
       </main>
       <Footer />
       <PurchaseNotification />
+      <CookieConsent />
     </div>
   );
 };

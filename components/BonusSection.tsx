@@ -19,6 +19,11 @@ const BonusSection: React.FC = () => {
       description: "IMPERDÍVEL! Mais de 31 MIL mangás de todos os gêneros com a melhor qualidade. O paraíso dos fãs de mangá!",
       icon: <BookOpen className="w-8 h-8 text-blue-400" />,
       image: "https://images.unsplash.com/photo-1614583225154-5fcdda07019e?q=80&w=500&auto=format&fit=crop", // Manga stack
+      covers: [
+        "https://i0.wp.com/blogbbm.com/wp-content/uploads/2020/02/demon-slayer-01.jpg?fit=610%2C900&ssl=1",
+        "https://ptanime.com/wp-content/uploads/2015/11/Nanatsu-no-Taizai-capa-17.jpg",
+        "https://tse1.mm.bing.net/th/id/OIP.aDZ6ZwSrgcqqh3gUhkKeygHaLx?rs=1&pid=ImgDetMain&o=7&rm=3"
+      ],
       gradient: "from-blue-900/50 to-cyan-900/50",
       highlight: false
     },
